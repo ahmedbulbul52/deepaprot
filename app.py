@@ -11,7 +11,7 @@ import pandas as pd
 import tensorflow as tf
 from keras.models import load_model, Sequential
 from sklearn.preprocessing import StandardScaler
-from flask import Flask, render_template, request, send_file
+from flask import Flask, render_template, request, send_file, session
 from werkzeug.utils import secure_filename
 from Bio import SeqIO
 from Bio.SeqUtils.ProtParam import ProteinAnalysis
